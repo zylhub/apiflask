@@ -42,7 +42,7 @@ pyparsing==2.4.7
     # via packaging
 pyrsistent==0.18.0
     # via jsonschema
-pytest==6.2.5
+pytest==7.0.1
     # via
     #   -r requirements/tests.in
     #   pytest-cov
@@ -54,7 +54,7 @@ six==1.16.0
     # via
     #   openapi-schema-validator
     #   openapi-spec-validator
-toml==0.10.2
-    # via pytest
 tomli==1.2.2
-    # via coverage
+    # via
+    #   coverage
+    #   pytest

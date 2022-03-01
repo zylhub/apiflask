@@ -10,7 +10,7 @@ attrs==21.2.0
     # via
     #   jsonschema
     #   pytest
-backports.entry-points-selectable==1.1.0
+backports-entry-points-selectable==1.1.0
     # via virtualenv
 cfgv==3.3.1
     # via pre-commit
@@ -130,7 +130,7 @@ pyparsing==2.4.7
     # via packaging
 pyrsistent==0.18.0
     # via jsonschema
-pytest==6.2.5
+pytest==7.0.1
     # via
     #   -r requirements/tests.in
     #   pytest-cov
@@ -162,12 +162,12 @@ toml==0.10.2
     # via
     #   mypy
     #   pre-commit
-    #   pytest
     #   tox
 tomli==1.2.2
     # via
     #   coverage
     #   pep517
+    #   pytest
 tox==3.24.5
     # via -r requirements/dev.in
 typing-extensions==3.10.0.2
